@@ -1,10 +1,17 @@
 html {
   font-family: Lora, serif;
+
 }
 
 .masthead {
-
+  background-image: url("../images/leaf-bg.svg");
+  background-color: #588477;
+  background-size: 64px;
+  border-top: 3px solid #2d5a4d;
+  border-bottom: 3px solid #2d5a4d;
+  color: #fff;
 }
+
 
 .logo {
   text-align: center;
@@ -16,6 +23,10 @@ html {
 
 .nav a {
   text-decoration: none;
+  border-bottom: .15em solid currentColor;
+
+  color: #2e1b13;
+  text-decoration: none;
 }
 
 .nav a:hover {
@@ -23,7 +34,7 @@ html {
 }
 
 .banner {
-
+background-image: url("../images/banner.jpg");
 }
 
 .banner-content {
