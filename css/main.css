@@ -12,7 +12,6 @@ html {
   color: #fff;
 }
 
-
 .logo {
   text-align: center;
 }
@@ -23,10 +22,11 @@ html {
 
 .nav a {
   text-decoration: none;
-  border-bottom: .15em solid currentColor;
-
-  color: #2e1b13;
+  border: 3px solid #2d5a4d;
+  border-radius: 8px;
+  color: #fff;
   text-decoration: none;
+  background-color: #588477;
 }
 
 .nav a:hover {
