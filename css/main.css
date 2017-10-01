@@ -52,16 +52,23 @@ background-repeat: no-repeat;
   background-size: 6em;
   background-position: 1em 11em;
   padding-top: 18em;
+  color: #fff;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .banner-content {
+    background-position: .75em 10em;
+    padding-top: 15em;
+    background-size: 5em;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
 
   .logo {
     text-align: left;
-  }
-
-  .nav {
-    text-align: right;
   }
 
 }
